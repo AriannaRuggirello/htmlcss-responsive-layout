@@ -31,7 +31,7 @@ section{
 button{
     padding: 10px;
     border-radius: 20px;
-    width: 100px;
+    min-width: 100px;
     border: none;
 }
 
@@ -39,7 +39,7 @@ button{
     HEADER
  *************************************************/
 header{
-    background-color: #52b1f2;
+    background-color: #0084fd;
     
 }
 
@@ -77,7 +77,7 @@ header .container{
 }
 
 /*************************************************
-    USE SECTION
+    USE
  *************************************************/
 
 .row{
@@ -89,8 +89,9 @@ header .container{
 .col{
     background-color: #b5ddff; 
     border: 1px dotted black;
-    border-radius: 20px; 
-    min-height: 190px;
+    border-radius: 20px;
+    padding: 20px; 
+   
 }
 
 .left{
@@ -101,10 +102,44 @@ header .container{
     width: 32%;
 }
 
+.demo{
+    display: flex;
+}
+
+.phone img{
+    max-width: 100%;
+    margin-top: 60px;
+}
+
 .three-col{
     width: calc((100%/3) - 10px);
     margin-bottom: 20px;
 }
+
+.icon{
+    font-size: 80px;
+    color: #0084fd;
+}
+
+.use h2{
+    color: #0084fd;
+}
+
+.use p{
+    color: #5a6e7f;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.blue{
+    background-color: #0084fd;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 200px;
+}
+
     /* responsive */
 @media screen and (max-width:480px) {
 
@@ -146,7 +181,7 @@ header .container{
  *************************************************/
 .text{
     text-align: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .testimonials .col{
@@ -204,11 +239,9 @@ footer{
 
 
 /* debug */
-/* section{
-   
+/* section{   
     min-height: 450px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 } */
 
 /* #logo,nav{
@@ -218,10 +251,10 @@ footer{
     height: 50px;
 } */
 
-.row{
+/* .row{
     background-color: white;
     min-height: 220px;
-}
+} */
 
 .avatar{
     width: 100px;
