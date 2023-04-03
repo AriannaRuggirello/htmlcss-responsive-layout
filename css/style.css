@@ -71,6 +71,7 @@ header .container{
 
 .three-col{
     width: calc((100%/3) - 10px);
+    margin-bottom: 20px;
 }
     /* responsive */
 @media screen and (max-width:480px) {
@@ -134,10 +135,28 @@ header .container{
             padding: 20px 0;
             text-align: center;
         }
-
-
-
     }
+
+/*************************************************
+   BENEFIT
+ *************************************************/
+.benefit .row{
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) { 
+    .benefit .three-col{
+        width: calc((100%/2) - 10px);
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .benefit .three-col{
+        display: block;
+        width: 100%;      
+    }
+}
 
 /*************************************************
    FOOTER
