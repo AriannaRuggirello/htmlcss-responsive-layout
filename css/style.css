@@ -1,3 +1,6 @@
+/*************************************************
+  GENERAL RULES
+ *************************************************/
 *{
     margin: 0;
     padding: 0;
@@ -17,20 +20,41 @@ span{
     margin: 0 auto;
 }
 
+.widget{
+    background-color: #9792e4;    
+}
+
+section{
+    padding: 30px 0;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+}
+
 /*************************************************
     HEADER
  *************************************************/
 header{
     background-color: #52b1f2;
-    height: 80px;
+    
 }
 
 header .container{
     display: flex;
     justify-content: space-between;
+    height: 80px;
     align-items: center;
 }
 
+.menu-desktop a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
 .menu-mobile{
     display: none;
 }
@@ -39,8 +63,12 @@ header .container{
 @media screen and (max-width:768px) {  
     
     .menu-mobile{
-        display: block;
-        background-color: green;        
+        display: block;       
+    }
+
+    .fa-bars{
+        color: white;
+        font-size: 30px;
     }
 
     .menu-desktop{
@@ -55,6 +83,7 @@ header .container{
 .row{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .col{
@@ -143,6 +172,7 @@ header .container{
 /*************************************************
    BENEFIT
  *************************************************/
+
 .benefit .row{
     flex-wrap: wrap;
 }
@@ -162,6 +192,8 @@ header .container{
     }
 }
 
+
+
 /*************************************************
    FOOTER
  *************************************************/
@@ -172,19 +204,19 @@ footer{
 
 
 /* debug */
-section{
-    background-color: #9792e4;
+/* section{
+   
     min-height: 450px;
     margin-bottom: 20px;
-    padding: 20px 0;
-}
+    
+} */
 
-#logo,nav{
+/* #logo,nav{
     background-color: white;
     border: 1px dotted black;
     width: 50px;
     height: 50px;
-}
+} */
 
 .row{
     background-color: white;
