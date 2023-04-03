@@ -57,12 +57,11 @@ header .container{
     background-color: #b5ddff; 
     border: 1px dotted black;
     border-radius: 20px; 
-    height: 190px;
+    min-height: 190px;
 }
 
 .left{
-    width: 66%;
-    
+    width: 66%;    
 }
 
 .right{
@@ -143,6 +142,7 @@ header .container{
 .benefit .row{
     flex-wrap: wrap;
 }
+    /* responsive */
 
 @media screen and (max-width:768px) { 
     .benefit .three-col{
