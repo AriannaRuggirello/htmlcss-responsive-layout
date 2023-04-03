@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -51,6 +51,7 @@ header .container{
 
 .col{
     background-color: #b5ddff; 
+    border: 1px dotted black;
     border-radius: 20px; 
     height: 190px;
 }
@@ -64,21 +65,41 @@ header .container{
     width: 32%;
 }
 
-.use-icon{
+.three-col{
     width: calc((100%/3) - 10px);
 }
     /* responsive */
 @media screen and (max-width:480px) {
 
    .row{
-    display: block;
-    
+    display: block;    
    }
     
    .col{
     width: 100%;
     margin: 20px 0;
    }
+}
+
+/* planning */
+.two-col{
+    width: calc((100%/2) - 10px);
+    height: 400px;
+}
+
+    /* responsive */
+
+@media screen and (max-width:768px) {
+
+    .planning .row{
+        display: block;
+    }
+
+    .planning .two-col{
+        width: 100%;
+
+    }
+    
 }
 
 
