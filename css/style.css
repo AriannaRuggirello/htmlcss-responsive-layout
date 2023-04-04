@@ -302,6 +302,38 @@ header .container{
 .benefit .row{
     flex-wrap: wrap;
 }
+
+.benefit .col{
+    background-color:#ffffff;
+    padding: 30px;
+}
+
+.benefit .text{
+    color: #ffffff;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.violet-button{
+    background-color: #9792e4;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.violet{
+    color: #9792e4;
+    font-weight: bold;
+}
+
+.number{
+    font-size: 70px;
+}
+
+.title{
+    font-size: 30px;
+}
+
     /* responsive */
 
 @media screen and (max-width:768px) { 
