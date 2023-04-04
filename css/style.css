@@ -351,6 +351,7 @@ header .container{
 
 .title{
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
     /* responsive */
@@ -428,7 +429,15 @@ header .container{
 footer{
     background-color: #333333;
     min-height: 150px;
+    color: #ffffff;
+    padding: 40px 0;
 }
+
+
+footer a{
+    color: #9792e4;
+}
+
 
 
 /* debug */
